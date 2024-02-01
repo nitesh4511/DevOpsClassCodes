@@ -60,6 +60,12 @@
             <artifactId>vaadin-compatibility-server</artifactId>
             <version>${vaadin.version}</version>
         </dependency>
+	<dependency>
+           <groupId>junit</groupId>
+           <artifactId>junit</artifactId>
+           <version>4.12</version>
+           <scope>test</scope>
+        </dependency>    
         <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-compatibility-shared</artifactId>
