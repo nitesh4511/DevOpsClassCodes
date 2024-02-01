@@ -174,6 +174,17 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+
+            <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-surefire-plugin</artifactId>
+               <version>2.20</version>
+               <configuration>
+                   <parallel>methods</parallel>
+                   <threadCount>10</threadCount>
+               </configuration>
+           </plugin>
+		
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
